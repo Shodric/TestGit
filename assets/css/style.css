@@ -622,18 +622,57 @@ nav {
   position: relative;
 }
 
-.ventana {
-  width: 575px;
-  height: 355px;
+.ventana-1 {
+  width: 90%;
+  height: 90%;
   border-radius: 15px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/assets/images/paginas/pisos-screenshot.png);
+  background-image: url(/assets/images/paginas/pisos.webp);
   background-position-y: top;
   margin-top: 15px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-  z-index: +5;
+}
+
+.ventana-2 {
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/images/paginas/lavanderia.webp);
+  background-position-y: top;
+  margin-top: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ventana-3 {
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/images/paginas/eyes.webp);
+  background-position-y: top;
+  margin-top: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.ventana-4 {
+  display: none;
+  /* width: 90%;
+  height: 90%;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/images/paginas/lavanderia.webp);
+  background-position-y: top;
+  margin-top: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); */
 }
 
 .sombra-ventana {
