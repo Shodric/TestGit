@@ -725,6 +725,9 @@ nav {
   text-size-adjust: auto;
   margin-left: 10px;
   font-weight: 200;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer {

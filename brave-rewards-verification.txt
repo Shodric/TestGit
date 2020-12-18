@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: g-ultra.web.app
+Token: 18671d51b9bc9606a552d2e85e86134a13159ac1581fcb5edb930c1fb9820ab3
