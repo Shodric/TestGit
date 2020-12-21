@@ -662,17 +662,18 @@ nav {
 }
 
 .ventana-4 {
-  display: none;
-  /* width: 90%;
+  width: 90%;
   height: 90%;
   border-radius: 15px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/assets/images/paginas/lavanderia.webp);
-  background-position-y: top;
+  background-color: #000;
   margin-top: 15px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.proximamente {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: large;
 }
 
 .sombra-ventana {
@@ -730,9 +731,33 @@ nav {
   text-overflow: ellipsis;
 }
 
-.footer {
-  height: 150px;
+footer {
   background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 1.5rem;
+  align-content: center;
+  vertical-align: middle;
+}
+
+footer div {
+  width: 350px;
+  height: 100px;
+  background-color: #777;
+  text-align: center;
+  color: #fff;
+}
+
+.iconos a {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0);
+  font-size: 30px;
+}
+
+.iconos a span {
+  color: #fff;
 }
 
 /* ----- MEDIA SCREEN ----- */
