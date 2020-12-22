@@ -738,16 +738,15 @@ footer {
   justify-content: space-evenly;
   padding: 15px;
   font-size: 1.5rem;
-  align-content: center;
-  vertical-align: middle;
 }
 
 footer div {
   width: 350px;
-  height: 100px;
-  background-color: #777;
+  height: 125px;
+  background-color: #000;
   text-align: center;
   color: #fff;
+  margin: auto;
 }
 
 .iconos a {
