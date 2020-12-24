@@ -1,0 +1,22 @@
+$violeta-ultra: #400087;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #000;
+  height: 100vh;
+}
+
+header {
+  div {
+    height: 200px;
+    width: 50%;
+    img {
+      height: 15%;
+    }
+  }
+}
